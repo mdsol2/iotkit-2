@@ -1,8 +1,13 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
+# coding: utf-8
+'''
+Unicorn HAT HDのLEDマトリックスをリセットするプログラム
+'''
 
 import time
 import unicornhathd
 
-time.sleep(0.5)
+# バッファーをクリアして
 unicornhathd.clear()
+# 描画を実行
 unicornhathd.show()

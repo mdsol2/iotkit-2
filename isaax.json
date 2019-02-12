@@ -1,0 +1,9 @@
+{
+    "name": "iotkit-2 sample",
+    "author": "tomotomo",
+    "version": "0.1",
+    "license": "Apache 2.0",
+    "scripts": {
+        "start": "python3 -u chapter2/sample_xy.py"
+    }
+}
