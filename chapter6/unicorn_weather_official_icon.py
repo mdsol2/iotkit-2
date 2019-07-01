@@ -27,7 +27,7 @@
 
    起動例:
    ```
-   $ WEATHER_CITY=nagoya APIKEY=<OpenWeatherMap API KEY> python3 unicorn_weather_official_icon.py 
+   $ WEATHER_CITY=nagoya OPENWEATHER_API_KEY=<OpenWeatherMap API KEY> python3 unicorn_weather_official_icon.py 
    ```
 """
 
