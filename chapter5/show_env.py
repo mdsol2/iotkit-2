@@ -25,7 +25,7 @@ import datetime
 
 # 参照元のホストとポートの指定
 # 継続化するときのことを見据えてホストの直書きは控える
-ENVIRO_HOST = os.environ.get('ENVRIO_HOST')
+ENVIRO_HOST = os.environ.get('ENVIRO_HOST')
 ENVIRO_URL = 'http://{host}/environ'.format(host=ENVIRO_HOST)
 COLOR = (200, 0, 0)
 
