@@ -160,7 +160,7 @@ def main():
         if not r.ok:
             # 90秒待ってから関数を終了する。
             # これによりmain()を再稼働させる = リトライ処理
-            logger.debug(r.status)
+            logger.debug(r.status_code)
             logger.warn('error, weather get fail')
             time.sleep(30 * 3)
             return
